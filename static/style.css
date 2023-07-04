@@ -1,0 +1,156 @@
+
+*{
+ margin:0;
+ padding:0;
+
+}
+
+
+@media screen and (min-width:1280px) 
+{
+body:max-width:1280px;
+}
+
+@media screen and (min-width:850px) 
+{
+body:max-width:850px;
+}
+
+
+
+
+@media screen and (min-width:980px) 
+{
+body:max-width:980px;
+}
+
+
+
+@media screen and (min-width:1024px) 
+{
+body:max-width:1024px;
+}
+
+
+
+body{
+
+    background-image: url('FUI HUD Screens.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.header{
+      background:#084cdf;
+      opacity:0.4;
+      overflow: hidden;
+    }
+
+.head{
+    color:smokewhite;
+    color:100px;
+    padding: 5px;
+    text-align:center;
+    font-family: sans-serif;
+    font-weight: bolder;
+    text-align:center;
+}
+
+.up_img{
+    left: 50px;
+    top:20px;
+    position:fixed;
+    border:2px solid white;
+}
+
+.det_img{
+
+    right: 50px;
+    top:20px;
+    position:fixed;
+    border:2px solid white;
+
+}
+
+.img_show{
+
+    right:400px;
+    top:20px;
+    position:fixed;
+    border:2px solid white;
+
+
+
+}
+
+
+.upload{
+    left: 640px;
+    top:550px;
+    position:fixed;
+    color:#fff;
+    border:none;
+    border-radius:10px;
+    padding:10px 20px;
+    width:105px;
+    background:#084cdf;
+    cursor:pointer;
+    transition:background .2s ease-in-out; 
+    margin-right:20px;   
+}
+
+
+
+.upload:hover{
+      background:#0d45a5;
+}
+
+
+input[type=file]{
+            
+            color:transparent;
+            }
+
+
+input[type=file]::file-selector-button{
+   left: 640px;
+   top:500px;
+   position:fixed;
+   color: #fff;
+   border:none;
+   padding:10px 20px;
+   transition:background .2s ease-in-out;
+   cursor:pointer;
+   border-radius:10px;
+   background:#084cdf;
+   margin-right:20px;
+  
+   
+  
+   
+ }
+
+input[type=file]::file-selector-button:hover{
+      background:#0d45a5;
+      
+}
+
+
+
+
+     
+
+
+.Detect{
+    left: 800px;
+    top:600px;
+    position:fixed;
+    height: 40px;
+    width:200px;
+    text-align: center;
+    background-color: darkgrey;
+    font-size: 20px;
+    cursor:pointer;
+}
+
+
+

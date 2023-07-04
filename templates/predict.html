@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"  href="{{ url_for('static',filename='style.css')}}"  type="text/css">
+    <title>
+        Tumor Detector
+    </title>
+</head>
+<body>
+    
+<img src="{{ user_image}} " width="500" height="500" class=img_show>
+<form action="/Detect/{{user_image}}" method="get"  enctype="multipart/form-data">
+<input type="submit" value="Detect" class="upload"> 
+</form>
+
+</body>
+</html>
+
